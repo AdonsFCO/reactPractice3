@@ -1,0 +1,22 @@
+/*Style Variables*/
+:root{
+    --backgroundColorDark : black; 
+    --backgroundColorLight: white; 
+    --mainColorLight: #15171a;
+    --mainColorDark: #b6c6de;
+    --secondaryColorLight: #6c757d;
+    --textColorMain: #b6c6de;
+
+
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: 2fr 3fr; 
+}
