@@ -1,0 +1,11 @@
+@import "../App.css";
+footer{
+    display: flex;
+    background-color:var(--mainColorLight);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    top: 100;
+    width:100%
+}
