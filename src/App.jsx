@@ -1,17 +1,17 @@
-import { Component } from "react"
+import { Component } from "react";
+import Header from "./components/Header/Header";
 
-
-class App extends Component
-{
-  constructor(props)
-  {
-    super(props)
+class App extends Component {
+  constructor(props) {
+    super(props);
   }
-  render()
-  {
-    return(<h1>test</h1>)
+  render() {
+    return (
+      <div className="container">
+        <Header />
+      </div>
+    );
   }
-
 }
 
-export default App
+export default App;
