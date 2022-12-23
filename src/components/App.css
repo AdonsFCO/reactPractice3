@@ -1,0 +1,39 @@
+/*Style Variables*/
+:root{
+/*Font*/
+--textColorMain: #b6c6de;
+    
+
+
+/*Light Mode*/
+    --backgroundColorLight: white; 
+    --mainColorLight: #15171a;
+    --secondaryColorLight: #6c757d;
+    --buttonColorLight: #077afd;
+    
+
+/*Dark Mode*/
+    --backgroundColorDark : black; 
+    --mainColorDark: #b6c6de;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: 1fr 2fr ; 
+
+    margin: 30px;
+  
+}
+.cardContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

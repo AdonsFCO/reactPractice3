@@ -1,0 +1,28 @@
+@import "../App.css"; 
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--mainColorLight);
+    color: var(--textColorMain);
+    height: 4em;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.brand
+{
+    margin-left: 10%;
+}
+.buttonContainer
+{
+    margin-right: 5%;
+}
+.button
+{
+    padding-left: 10px;
+}
+

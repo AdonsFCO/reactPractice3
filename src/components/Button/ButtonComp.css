@@ -1,0 +1,17 @@
+@import "../App.css";
+
+
+.buttonComp
+{
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--buttonColorLight);
+    width: 8em;
+    height: 3em;
+    border-color: white;
+    box-shadow: none;
+    border-style: solid;
+
+
+}
