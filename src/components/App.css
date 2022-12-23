@@ -1,13 +1,20 @@
 /*Style Variables*/
 :root{
-    --backgroundColorDark : black; 
+/*Font*/
+--textColorMain: #b6c6de;
+    
+
+
+/*Light Mode*/
     --backgroundColorLight: white; 
     --mainColorLight: #15171a;
-    --mainColorDark: #b6c6de;
     --secondaryColorLight: #6c757d;
-    --textColorMain: #b6c6de;
+    --buttonColorLight: #077afd;
+    
 
-
+/*Dark Mode*/
+    --backgroundColorDark : black; 
+    --mainColorDark: #b6c6de;
 }
 
 body{
@@ -18,5 +25,7 @@ body{
 .container
 {
     display: grid;
-    grid-template-rows: 2fr 3fr; 
+    grid-template-rows: 1fr 4fr; 
+    margin: 50px;
+  
 }
